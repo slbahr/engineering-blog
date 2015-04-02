@@ -124,7 +124,8 @@ img
 	padding: 40px 25px;
 	text-align: left;
 	background: url("../images/bg-transparent.png") repeat;
-	text-align: center;
+	/*text-align: center;*/
+	text-align: left;
 }
 
 	#content p
