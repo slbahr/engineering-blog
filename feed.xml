@@ -5,16 +5,26 @@
     <description>The engineers of Monsanto produce code that powers agricultural products that support farmers all around the world. Our goal of sustainable agriculture mirrors the way we present our ideas and code to the world.</description>
     <link>http://engineering.monsanto.com/</link>
     <atom:link href="http://engineering.monsanto.com/feed.xml" rel="self" type="application/rss+xml" />
+<<<<<<< HEAD
     <pubDate>Mon, 06 Apr 2015 11:57:04 -0500</pubDate>
     <lastBuildDate>Mon, 06 Apr 2015 11:57:04 -0500</lastBuildDate>
+=======
+    <pubDate>Mon, 06 Apr 2015 14:57:47 -0500</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2015 14:57:47 -0500</lastBuildDate>
+>>>>>>> 29f659dcc1e6d30a0334c936d20488d1e73266b1
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>We are Monsanto Engineering</title>
         <description>&lt;p&gt;At Monsanto, we are engineers: in our history we’ve engineered &lt;a href=&quot;https://en.wikipedia.org/wiki/Light-emitting_diode#Initial_commercial_development&quot;&gt;molecules&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/AstroTurf&quot;&gt;materials&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/L-DOPA&quot;&gt;medicines&lt;/a&gt;. Now as a purely agricultural company, we not only engineer plants, but the systems that develop, manufacture, monitor and deploy them.&lt;/p&gt;
 
+<<<<<<< HEAD
 &lt;p&gt;Monsanto might not be the first company that springs to mind when you think of cutting-edge software engineering. We’re a bit different: instead of being highly focused on a narrow segment of IT like social media analytics, Monsanto is all about diversity (and &lt;a href=&quot;http://news.monsanto.com/press-release/corporate/monsanto-open-all-company-signs-human-rights-campaign-equality-pledge&quot;&gt;not just this kind&lt;/a&gt;). In the coming posts, we will share our experiences and code for dealing with a multitude of topics. We have several image analysis and computer vision teams, on projects like our robotic automated greenhouse.&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/nyAP1xmgur0?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+=======
+&lt;p&gt;Monsanto might not be the first company that springs to mind when you think of cutting-edge software engineering. We’re a bit different: instead of being highly focused on a narrow segment of IT like social media analytics, Monsanto is all about diversity (and &lt;a href=&quot;http://news.monsanto.com/press-release/corporate/monsanto-open-all-company-signs-human-rights-campaign-equality-pledge&quot;&gt;not just this kind&lt;/a&gt;). In the coming posts, we will share our experiences and code for dealing with a multitude of topics. We have several image analysis and computer vision teams, on projects like our robotic automated greenhouse.
+&amp;lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/nyAP1xmgur0?color=white&amp;amp;theme=light&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+>>>>>>> 29f659dcc1e6d30a0334c936d20488d1e73266b1
 
 &lt;p&gt;We develop both the hardware and software to acquire &lt;a href=&quot;http://en.wikipedia.org/wiki/Hyperspectral_imaging&quot;&gt;hyper-spectral&lt;/a&gt; images both in controlled environments as well as in the field.&lt;/p&gt;
 
