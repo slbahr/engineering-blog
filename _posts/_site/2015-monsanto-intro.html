@@ -1,0 +1,27 @@
+<p>At Monsanto, we are engineers: in our history we’ve engineered <a href="https://en.wikipedia.org/wiki/Light-emitting_diode#Initial_commercial_development">molecules</a>, <a href="https://en.wikipedia.org/wiki/AstroTurf">materials</a>, and <a href="https://en.wikipedia.org/wiki/L-DOPA">medicines</a>. Now as a purely agricultural company, we not only engineer plants, but the systems that develop, manufacture, monitor and deploy them.</p>
+
+<p>Monsanto might not be the first company that springs to mind when you think of cutting-edge software engineering. We’re a bit different: instead of being highly focused on a narrow segment of IT like social media analytics, Monsanto is all about diversity (and <a href="http://news.monsanto.com/press-release/corporate/monsanto-open-all-company-signs-human-rights-campaign-equality-pledge">not just this kind</a>). In the coming posts, we will share our experiences and code for dealing with a multitude of topics. We have several image analysis and computer vision teams, on projects like our robotic automated greenhouse (FIXME embed this <a href="https://www.youtube.com/watch?v=nyAP1xmgur0">video</a>). We develop both the hardware and software to acquire <a href="http://en.wikipedia.org/wiki/Hyperspectral_imaging">hyper-spectral</a> images both in controlled environments as well as in the field.</p>
+
+<p>We have also have several computational biology teams, who mine petabytes of DNA sequence data for plants, microbes and insects. Thousand-core distributed analytics pipelines have been the norm here for a decade. Crossing over between research and manufacturing, we have a <a href="http://www.fool.com/investing/general/2014/12/06/monsanto-might-be-best-internet-of-things-stock.aspx">globally distributed cloud-based Internet of Things (IoT) platform</a> to collect and analyze realtime planting, harvesting, and logistics data from a multitude of sensors, some of which we’ve built on top of RasPi, Arduino, and custom PCBs. On the commercial side, our IFS team has built a <a href="http://www.monsanto.com/investors/documents/whistle%20stop%20tour%20vi%20-%20aug%202012/wst-ifs_posters.pdf">predictive analytical model and cloud platform</a> that combined with hundreds of data points per second from our <a href="http://www.precisionplanting.com/#/">precision planters</a> optimizes yield using only software.</p>
+
+<p>Monsanto is a large company, but we’ve aggressively pursued cutting-edge technology. In addition to the requisite relational and Oracle based applications, we’ve also running a variety of NoSQL in production. Since 2010, we’ve developed applications on top of Hadoop and CouchDB (and we’ve released a monadic Couch DB connector, <a href="https://github.com/monsantoco/stoop">Stoop</a>). At an upcoming talk we’ll be showcasing one of our <a href="http://stampedecon.com/sessions/managing-genetic-ancestry-at-scale-with-neo4j-and-kafka/">Neo4J production applications</a>. We’re also using Riak, Rabbit, Kafka, and Cassandra in major production applications, in addition to our own multidimensional array database <a href="https://github.com/TheClimateCorporation/mandoline">Mandolin</a>.</p>
+
+<p>While Java makes up the core of our applications at Monsanto, and we have pockets of Clojure, Python, R, Perl, .Net and other languages, Scala is now the standard back-end language at Monsanto. Most if not all of our new development is occurring in Scala. In our first few posts, we are excited to highlight and release our code for rapidly developing microservices applications on Scala/Docker/AWS. An upcoming post will introduce and release our synthetic “type system” we implemented on top of AWS CloudFormation in the Scala type system. Having used Scala at Monsanto since 2010, we can’t wait to share not only our libraries but other explorations in monads, type-level programming, and general type-foolery of the form (type members and refinements FTW!):</p>
+
+<p>```
+// TODO: Also add QueryParams object / type
+case class GET<a href="path:        P{type Params = PathParameters},
+                    pathFactory: PathMapper[PathMapperOut, PathParameters],
+                    bodyFactory: CanonicalModelFactory[Body]">
+                PathParameters,
+                P &lt;: Path{type Params = PathParameters},
+                Body &lt;: CanonicalModel[Body],
+                PathMapperOut,
+                R</a>
+                  (f: (PathMapperOut, Body) =&gt; R){</p>
+
+<p>def run(url: String, item: Body): Option[R] = path.parse(url).map(bits =&gt; f( pathFactory.tupled(bits), item))
+}
+```</p>
+
+<p>IT at Monsanto is characterized by its amazing diversity. With modern tools, we are tackling exciting problems in domains as diverse as genomics and computer vision. Now we are opening up these tools and experiences to the community. We hope you’ll join us back here for our next post on automation in AWS.</p>
