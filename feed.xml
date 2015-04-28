@@ -11,25 +11,23 @@
                 
                 
                     <description>&lt;p&gt;At Monsanto, we are engineers: in our history we’ve engineered &lt;a href=&quot;https://en.wikipedia.org/wiki/Light-emitting_diode#Initial_commercial_development&quot;&gt;molecules&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/AstroTurf&quot;&gt;materials&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/L-DOPA&quot;&gt;medicines&lt;/a&gt;. Now as a purely agricultural company, we not only engineer plants, but the systems that develop, manufacture, monitor and deploy them.&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Mon, 06 Apr 2015 00:00:00 -0500</pubDate>
-                <link>http://engineering.monsanto.com/code/2015/04/06/we-are-monsanto-engineering/</link>
-                <guid isPermaLink="true">http://engineering.monsanto.com/code/2015/04/06/we-are-monsanto-engineering/</guid>
+                <link>http://engineering.monsanto.com/2015/04/06/we-are-monsanto-engineering/</link>
+                <guid isPermaLink="true">http://engineering.monsanto.com/2015/04/06/we-are-monsanto-engineering/</guid>
             </item>
         
             <item>
                 <title>Stoop: our first open source release</title>
                 
                 
-                    <description>&lt;p&gt;We are happy to annouce the release of our first open source software, &lt;a href=&quot;https://github.com/MonsantoCo/stoop&quot;&gt;Stoop&lt;/a&gt;. Based on an existing &lt;a href=&quot;http://hackage.haskell.org/package/CouchDB&quot;&gt;Haskell library&lt;/a&gt;, Stoop is a Scala DSL for interfacing with CouchDB. Implementation can be easily switched between talking to an actual Couch or a fake (mock) one for testing. We’ve released this under the Modified BSD License, so check it out and let us know if you have any questions, if you find bugs, or even if you have a &lt;a href=&quot;https://github.com/MonsantoCo/stoop/pulls&quot;&gt;pull request&lt;/a&gt; to fix something!&lt;/p&gt;
-
+                    <description>&lt;p&gt;We are happy to annouce the release of our first open source software, &lt;a href=&quot;https://github.com/MonsantoCo/stoop&quot;&gt;Stoop&lt;/a&gt;. Based on an existing &lt;a href=&quot;http://hackage.haskell.org/package/CouchDB&quot;&gt;Haskell library&lt;/a&gt;, Stoop is a Scala DSL for interfacing with CouchDB. Implementation can be easily switched between talking to an actual Couch or a fake (mock) one for testing. We&amp;#39;ve released this under the Modified BSD License, so check it out and let us know if you have any questions, if you find bugs, or even if you have a &lt;a href=&quot;https://github.com/MonsantoCo/stoop/pulls&quot;&gt;pull request&lt;/a&gt; to fix something!&lt;/p&gt;
 </description>
                 
                 <pubDate>Sun, 05 Apr 2015 00:00:00 -0500</pubDate>
-                <link>http://engineering.monsanto.com/code/2015/04/05/stoop-our-first-open-source-release/</link>
-                <guid isPermaLink="true">http://engineering.monsanto.com/code/2015/04/05/stoop-our-first-open-source-release/</guid>
+                <link>http://engineering.monsanto.com/2015/04/05/stoop-our-first-open-source-release/</link>
+                <guid isPermaLink="true">http://engineering.monsanto.com/2015/04/05/stoop-our-first-open-source-release/</guid>
             </item>
         
     </channel>
